@@ -307,4 +307,102 @@ template {
   display: none;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.section-card {
+  background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+  border-radius: 0px 0px 12px 12px;
+}
+
+.title {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.title a {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #24A3FF;
+  text-decoration: none;
+  padding-bottom: 10px;
+}
+
+.title::after {
+  content: "";
+  background-image: url("../images/vector-blue-right.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 5px;
+  height: 9px;
+  position: absolute;
+  left: 83px;
+  top: 5px;
+}
+
+.title h1 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin: 0px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 0px 0px 30px 0px;
+}
+
+.card:last-child {
+  margin: 0px 0px 60px 0px;
+}
+
+.card-image {
+  padding: 14px;
+  width: 92px;
+  height: 92px;
+  background-color: #FFFFFF;
+  border-radius: 24px;
+  margin-bottom: 30px;
+}
+
+.card-title h2 {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #24A3FF;
+  padding-bottom: 15px;
+  margin: 0px;
+}
+
+.card-title p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+  margin: 0px;
+}
+
 /*# sourceMappingURL=style.css.map */
